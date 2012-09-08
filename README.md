@@ -9,4 +9,4 @@ Simply initiate the plugin
 
 $('a').iconify();
 
-Icons used in the plugin are made by Mark James @markjames and are available free on http://www.famfamfam.com/lab/icons/silk/
+Icons used in the plugin are made by fatcow hosting and are available free on http://www.fatcow.com/free-icons
