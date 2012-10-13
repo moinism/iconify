@@ -1,0 +1,36 @@
+*[data-iconify] { /* In case you want extra styling for every iconified element. */
+	padding-left:20px;
+}
+/* Every extension is given a class so that each extension could have a different image if desired. */
+.iconify-exe , .iconify-msi {
+	background:url(images/exe.png) no-repeat;
+	background-size:16px;
+}
+.iconify-script, .iconify-js, .iconify-css, .iconify-class, .iconify-java {
+	background:url(images/script.png) no-repeat;
+	background-size:16px;
+}
+.iconify-doc, .iconify-docs, .iconify-docx, .iconify-ppt, .iconify-pptx, .iconify-xls, .iconify-pdf, .iconify-txt, .iconify-rtf, .iconify-csv {
+	background:url(images/doc.png) no-repeat;
+	background-size:16px;
+}
+.iconify-image, .iconify-png, .iconify-jpg, .iconify-gif, .iconify-jpeg, .iconify-bmp{
+background:url(images/img.png) no-repeat;
+	background-size:16px;
+}
+.iconify-zip, .iconify-rar, .iconify-gzip, .iconify-iso, .iconify-tar, .iconify-cab, .iconify-jar, .iconify-7zip{
+background:url(images/zip.png) no-repeat;
+	background-size:16px;
+}
+.iconify-media, .iconify-mp3, .iconify-mp4, .iconify-avi, .iconify-3gp, .iconify-amr {
+	background:url(images/media.png) no-repeat;
+	background-size:16px;
+}
+.iconify-torrent {
+	background:url(images/torrent.png) no-repeat;
+	background-size:16px;
+}
+.iconify-system, .iconify-sys, .iconify-bak, .iconify-ini, .iconify-bat, .iconify-bat, .iconify-cmd, .iconify-com, .iconify-ibt, .iconify-isx, .iconify-iss, .iconify-bin, .iconify-log, .iconify-dat {
+ 	background:url(images/sys.png) no-repeat;
+	background-size:16px;
+}

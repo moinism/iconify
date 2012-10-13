@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meat name="" content="moinism, iconify, add icons, put icons, adding icons to links, files icons, auto icon file links" />
+    <meta name="keywords" content="moinism, iconify, add icons, put icons, adding icons to links, files icons, auto icon file links" />
     <meta name="description" content="This is a simple jQuery plugin which iconify the html elements based on the file extensions in their attributes." />
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
@@ -37,7 +37,7 @@
 
 <p>Include the iconify.jquery.js file</p>
 
-<div class="highlight"><pre><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"js/iconify.jquery.js"</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<div class="highlight"><pre><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"iconify.jquery.js"</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 </pre></div>
 
 <p>Then initiate the plugin in your document</p>
@@ -70,14 +70,26 @@
 
 <div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"span"</span><span class="p">).</span><span class="nx">iconify</span><span class="p">({</span> <span class="nx">atr</span> <span class="o">:</span> <span class="s2">"data-url"</span><span class="p">,</span> <span class="nx">theme</span> <span class="o">:</span> <span class="s2">"myCustomTheme"</span> <span class="p">});</span>
 </pre></div>
+
+<h3>Demo</h3>
+<a href="#" data-hold="demo.png">Picture<a/>
+<a href="#" data-hold="demo.zip">Archive<a/>
+<a href="#" data-hold="demo.mp3">Media<a/>
         </section>
 
         <footer>
-          Iconify is maintained by <a href="https://twitter.com/moinism">@moinism</a><br>
+          Iconify is developed & maintained by <a href="https://twitter.com/moinism">@moinism</a><br>
         </footer>
 
-        
+     
       </div>
     </div>
+<script src="js/jquery.js"></script>
+<script src="js/iconify.jquery.js"></script>
+<script>
+$(document).ready(function(){
+    $("a").iconify({ atr : 'data-hold' });
+});
+</script>
   </body>
 </html>
