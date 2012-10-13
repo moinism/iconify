@@ -31,7 +31,11 @@
         </section>
 
         <hr>
-
+		<div class="fb-like" data-href="http://moinism.github.com/iconify/" data-send="true" data-layout="box_count" data-width="250" data-show-faces="false" data-font="segoe ui"></div> 
+		<a href="https://twitter.com/share" class="twitter-share-button" data-related="moinism">Tweet</a>
+		<div class="g-plusone" data-size="medium"></div>
+		<hr>
+		
         <section id="main_content">
           <h3>Usage</h3>
 
@@ -72,9 +76,14 @@
 </pre></div>
 
 <h3>Demo</h3>
+<p>Below elements are being iconified by their <code>data-hold</code> attribute.</p>
 <a href="#" data-hold="demo.png">Picture<a/>
 <a href="#" data-hold="demo.zip">Archive<a/>
 <a href="#" data-hold="demo.mp3">Media<a/>
+
+<br/>
+<h3>Still confused?</h3>
+<p><a href="https://twitter.com/intent/tweet?screen_name=moinism" class="twitter-mention-button">Tweet to @moinism</a> and I'll love to help you.</p>
         </section>
 
         <footer>
@@ -91,5 +100,23 @@ $(document).ready(function(){
     $("a").iconify({ atr : 'data-hold' });
 });
 </script>
-  </body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=364421203630733";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</body>
 </html>
